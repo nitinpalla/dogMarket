@@ -52,8 +52,8 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-16 bg-gray-50" aria-labelledby="faq-heading">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 id="faq-heading" className="text-3xl font-bold text-center mb-12">
-          Frequently Asked Questions
+        <h2 id="faq-heading" className="text-3xl md:text-4xl font-bold text-center mb-4">
+          Still Have Questions? We've Got Answers.
         </h2>
         <div className="space-y-4">
           {faqData.map((item, index) => (
